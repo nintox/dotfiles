@@ -6,7 +6,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 # alias commands
-#alias ls='colorls'
+alias ls='colorls'
 alias vim="nvim"
 
 
@@ -52,3 +52,5 @@ export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
 eval "$(starship init zsh)"
+#export STARSHIP_CONFIG=~/Users/danielwangensten/.dotfilesdotfiles/.config/starship.toml
+export STARSHIP_CONFIG=~/.dotfiles/.config/starship.toml
