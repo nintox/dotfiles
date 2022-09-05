@@ -52,5 +52,4 @@ export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
 eval "$(starship init zsh)"
-#export STARSHIP_CONFIG=~/Users/danielwangensten/.dotfilesdotfiles/.config/starship.toml
 export STARSHIP_CONFIG=~/.dotfiles/.config/starship.toml
