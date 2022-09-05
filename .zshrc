@@ -7,7 +7,6 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 
 # alias commands
 alias ls='colorls'
-alias vim="nvim"
 
 
 
