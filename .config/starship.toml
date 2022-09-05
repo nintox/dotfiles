@@ -18,7 +18,7 @@ command_timeout = 1000
 # Shows the local ip
 [localip]
 ssh_only = false
-format = "[$localipv4](style) "
+format = "[$localipv4](red) "
 disabled = false
 
 # Shows the battery status (if you have a laptop)
@@ -36,7 +36,7 @@ disabled = true
 # Shows the time
 [time]
 disabled = false
-format = "[$time](style)"
+format = "[$time](yellow)"
 
 [directory]
 truncation_length = 7
