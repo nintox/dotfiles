@@ -1,0 +1,57 @@
+items:
+  - colors:
+      name: Atelierforest (dark)
+      author: Chris Kempson
+      primary:
+        background: "#1b1918"
+        foreground: "#a8a19f"
+      cursor:
+        text: "#1b1918"
+        cursor: "#a8a19f"
+      normal:
+        black: "#1b1918"
+        red: "#f22c40"
+        green: "#5ab738"
+        yellow: "#d5911a"
+        blue: "#407ee7"
+        magenta: "#6666ea"
+        cyan: "#00ad9c"
+        white: "#a8a19f"
+      bright:
+        black: "#766e6b"
+        red: "#f22c40"
+        green: "#5ab738"
+        yellow: "#d5911a"
+        blue: "#407ee7"
+        magenta: "#6666ea"
+        cyan: "#00ad9c"
+        white: "#f1efee"
+  - theme: Atelierforest.dark
+colors:
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black: '#000000'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#caa9fa'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#9aedfe'
+    white: '#e6e6e6'
+theme: Dracula

@@ -1,0 +1,57 @@
+items:
+  - colors:
+      name: Atelierforest (dark)
+      author: Chris Kempson
+      primary:
+        background: "#1b1918"
+        foreground: "#a8a19f"
+      cursor:
+        text: "#1b1918"
+        cursor: "#a8a19f"
+      normal:
+        black: "#1b1918"
+        red: "#f22c40"
+        green: "#5ab738"
+        yellow: "#d5911a"
+        blue: "#407ee7"
+        magenta: "#6666ea"
+        cyan: "#00ad9c"
+        white: "#a8a19f"
+      bright:
+        black: "#766e6b"
+        red: "#f22c40"
+        green: "#5ab738"
+        yellow: "#d5911a"
+        blue: "#407ee7"
+        magenta: "#6666ea"
+        cyan: "#00ad9c"
+        white: "#f1efee"
+  - theme: Atelierforest.dark
+colors:
+  # Default colors
+  primary:
+    background: '#2E3440'
+    foreground: '#D8DEE9'
+
+  # Normal colors
+  normal:
+    black: '#3B4252'
+    red: '#BF616A'
+    green: '#A3BE8C'
+    yellow: '#EBCB8B'
+    blue: '#81A1C1'
+    magenta: '#B48EAD'
+    cyan: '#88C0D0'
+    white: '#E5E9F0'
+
+  # Bright colors
+  bright:
+    black: '#4C566A'
+    red: '#BF616A'
+    green: '#A3BE8C'
+    yellow: '#EBCB8B'
+    blue: '#81A1C1'
+    magenta: '#B48EAD'
+    cyan: '#8FBCBB'
+    white: '#ECEFF4'
+theme: Nord
