@@ -6,8 +6,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 # alias commands
-alias ls='colorls'
-
+alias ls='exa --icons'
 
 
 # find out which distribution we are running on
