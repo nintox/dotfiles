@@ -8,6 +8,8 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 # alias commands
 alias ls='exa --icons'
 
+# mac OS shortcuts
+alias code="open -a 'Visual Studio Code'"
 
 # find out which distribution we are running on
 LFILE="/etc/*-release"

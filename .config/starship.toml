@@ -1,5 +1,8 @@
-format = """
-$time | $all$character """
+# Change the default prompt format
+format = """\
+[╭╴](238)$env_var\
+$time - $all[╰─](238)$character"""
+
 
 # Inserts a blank line between shell prompts
 add_newline = false
